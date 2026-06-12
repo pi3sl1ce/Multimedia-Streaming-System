@@ -10,6 +10,8 @@ import java.util.*;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
+import javax.net.ssl.*;
+import java.security.*;
 
 /**
  *
@@ -23,7 +25,7 @@ public class StreamingServer {
     
     static final Logger logger = Logger.getLogger(StreamingServer.class.getName());
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         
         setupLogger();
         
@@ -47,7 +49,7 @@ public class StreamingServer {
  
         logger.info("Waiting for clients...");
         
-        try (ServerSocket serverSocket = new ServerSocket(PORT)) {
+        try (ServerSocket serverSocket = createServerSocket(PORT)) {
             
              registerWithLoadBalancer(PORT);
  
@@ -65,6 +67,18 @@ public class StreamingServer {
         } catch (IOException e) {
             System.err.println("Server error: " + e.getMessage());
         }
+    }
+    
+    private static ServerSocket createServerSocket(int port) throws Exception {
+        KeyStore ks = KeyStore.getInstance("JKS");
+        try (FileInputStream fis = new FileInputStream("streaming.keystore")) {
+            ks.load(fis, "streaming123".toCharArray());
+        }
+        KeyManagerFactory kmf = KeyManagerFactory.getInstance(KeyManagerFactory.getDefaultAlgorithm());
+        kmf.init(ks, "streaming123".toCharArray());
+        SSLContext ctx = SSLContext.getInstance("TLS");
+        ctx.init(kmf.getKeyManagers(), null, null);
+        return ctx.getServerSocketFactory().createServerSocket(port);
     }
     
     private static void setupLogger() {

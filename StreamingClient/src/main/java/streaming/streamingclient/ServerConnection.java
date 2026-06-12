@@ -6,9 +6,12 @@ package streaming.streamingclient;
 
 import java.io.*;
 import java.net.*;
+import java.security.KeyStore;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.TrustManagerFactory;
 
 /**
  *
@@ -49,7 +52,7 @@ public class ServerConnection {
        Returns the welcome message sent by the server */
     public String connect() throws IOException {
         int targetPort = resolveServerPort();
-        socket = new Socket(HOST, targetPort);
+        socket = createSSLSocket(HOST, targetPort);
         out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()), true);
         in  = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         return in.readLine();   // "Welcome to the Streaming Server!"
@@ -213,6 +216,22 @@ public class ServerConnection {
         }
     }
  
+     private Socket createSSLSocket(String host, int port) throws IOException {
+        try {
+            KeyStore ks = KeyStore.getInstance("JKS");
+            try (FileInputStream fis = new FileInputStream("streaming.keystore")) {
+                ks.load(fis, "streaming123".toCharArray());
+            }
+            TrustManagerFactory tmf = TrustManagerFactory.getInstance(TrustManagerFactory.getDefaultAlgorithm());
+            tmf.init(ks);
+            SSLContext ctx = SSLContext.getInstance("TLS");
+            ctx.init(null, tmf.getTrustManagers(), null);
+            return ctx.getSocketFactory().createSocket(host, port);
+        } catch (Exception e) {
+            throw new IOException("SSL socket creation failed: " + e.getMessage(), e);
+        }
+    }
+    
     /* Asks the Load Balancer on LB_PORT for a server port assignment
        Returns the assigned port, or SERVER_PORT as a fallback if the LB
        is not running or returns an error */
