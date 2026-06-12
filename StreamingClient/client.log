@@ -1,0 +1,24 @@
+Ιουν 10, 2026 4:43:04 Π.Μ. StreamingClient connectToServer
+INFO: Connected: Welcome to the Streaming Server!
+Ιουν 10, 2026 4:43:13 Π.Μ. StreamingClient$3 done
+INFO: Speed: 4.7955968
+Ιουν 10, 2026 4:43:18 Π.Μ. StreamingClient fetchFileList
+INFO: Sent: HELLO 4,7956 mkv
+Ιουν 10, 2026 4:43:30 Π.Μ. StreamingClient fetchFileList
+INFO: Sent: HELLO 4,7956 mkv
+Ιουν 10, 2026 6:42:36 Μ.Μ. streaming.streamingclient.StreamingClient connectToServer
+INFO: Connected: Welcome to the Streaming Server!
+Ιουν 10, 2026 6:42:45 Μ.Μ. streaming.streamingclient.StreamingClient$3 done
+INFO: Speed: 4.5195264
+Ιουν 10, 2026 7:07:50 Μ.Μ. streaming.streamingclient.StreamingClient connectToServer
+INFO: Connected: Welcome to the Streaming Server!
+Ιουν 10, 2026 7:07:57 Μ.Μ. streaming.streamingclient.StreamingClient$3 done
+INFO: Speed: 4.5317552
+Ιουν 10, 2026 7:08:00 Μ.Μ. streaming.streamingclient.StreamingClient fetchFileList
+INFO: Sent: HELLO 4,5318 mp4
+Ιουν 10, 2026 7:13:04 Μ.Μ. streaming.streamingclient.StreamingClient connectToServer
+INFO: Connected: Welcome to the Streaming Server!
+Ιουν 10, 2026 7:13:14 Μ.Μ. streaming.streamingclient.StreamingClient$3 done
+INFO: Speed: 4.6216384
+Ιουν 11, 2026 2:04:43 Π.Μ. streaming.streamingclient.StreamingClient connectToServer
+INFO: Connected. Server: Welcome to the Streaming Server!

@@ -1,0 +1,162 @@
+Ιουν 12, 2026 12:54:04 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO: Scanning videos/ folder and generating missing files...
+Ιουν 12, 2026 12:54:04 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO: Video library ready - 12 files:
+Ιουν 12, 2026 12:54:04 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-240p.avi
+Ιουν 12, 2026 12:54:04 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-240p.mkv
+Ιουν 12, 2026 12:54:04 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-240p.mp4
+Ιουν 12, 2026 12:54:04 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-360p.avi
+Ιουν 12, 2026 12:54:04 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-360p.mkv
+Ιουν 12, 2026 12:54:04 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-360p.mp4
+Ιουν 12, 2026 12:54:04 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-480p.avi
+Ιουν 12, 2026 12:54:04 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-480p.mkv
+Ιουν 12, 2026 12:54:04 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-480p.mp4
+Ιουν 12, 2026 12:54:04 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-720p.avi
+Ιουν 12, 2026 12:54:04 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-720p.mkv
+Ιουν 12, 2026 12:54:04 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-720p.mp4
+Ιουν 12, 2026 12:54:04 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO: Waiting for clients...
+Ιουν 12, 2026 12:54:04 Π.Μ. streaming.streamingserver.StreamingServer registerWithLoadBalancer
+WARNING: Could not reach Load Balancer (not running?): Connection refused: connect
+Ιουν 12, 2026 12:54:04 Π.Μ. streaming.streamingserver.StreamingServer registerWithLoadBalancer
+WARNING: Server will accept direct connections on port 5000
+Ιουν 12, 2026 2:52:22 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO: Scanning videos/ folder and generating missing files...
+Ιουν 12, 2026 2:52:22 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO: Video library ready - 12 files:
+Ιουν 12, 2026 2:52:23 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-240p.avi
+Ιουν 12, 2026 2:52:23 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-240p.mkv
+Ιουν 12, 2026 2:52:23 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-240p.mp4
+Ιουν 12, 2026 2:52:23 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-360p.avi
+Ιουν 12, 2026 2:52:23 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-360p.mkv
+Ιουν 12, 2026 2:52:23 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-360p.mp4
+Ιουν 12, 2026 2:52:23 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-480p.avi
+Ιουν 12, 2026 2:52:23 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-480p.mkv
+Ιουν 12, 2026 2:52:23 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-480p.mp4
+Ιουν 12, 2026 2:52:23 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-720p.avi
+Ιουν 12, 2026 2:52:23 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-720p.mkv
+Ιουν 12, 2026 2:52:23 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-720p.mp4
+Ιουν 12, 2026 2:52:23 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO: Waiting for clients...
+Ιουν 12, 2026 2:52:23 Π.Μ. streaming.streamingserver.StreamingServer registerWithLoadBalancer
+INFO: Load Balancer response: OK Registered port 5000
+Ιουν 12, 2026 2:56:22 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO: Scanning videos/ folder and generating missing files...
+Ιουν 12, 2026 2:56:22 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO: Video library ready - 12 files:
+Ιουν 12, 2026 2:56:22 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-240p.avi
+Ιουν 12, 2026 2:56:22 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-240p.mkv
+Ιουν 12, 2026 2:56:22 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-240p.mp4
+Ιουν 12, 2026 2:56:22 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-360p.avi
+Ιουν 12, 2026 2:56:22 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-360p.mkv
+Ιουν 12, 2026 2:56:22 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-360p.mp4
+Ιουν 12, 2026 2:56:22 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-480p.avi
+Ιουν 12, 2026 2:56:22 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-480p.mkv
+Ιουν 12, 2026 2:56:22 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-480p.mp4
+Ιουν 12, 2026 2:56:22 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-720p.avi
+Ιουν 12, 2026 2:56:22 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-720p.mkv
+Ιουν 12, 2026 2:56:22 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-720p.mp4
+Ιουν 12, 2026 2:56:22 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO: Waiting for clients...
+Ιουν 12, 2026 2:56:22 Π.Μ. streaming.streamingserver.StreamingServer registerWithLoadBalancer
+INFO: Load Balancer response: OK Registered port 5000
+Ιουν 12, 2026 3:10:35 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO: Scanning videos/ folder and generating missing files...
+Ιουν 12, 2026 3:10:36 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO: Video library ready - 12 files:
+Ιουν 12, 2026 3:10:36 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-240p.avi
+Ιουν 12, 2026 3:10:36 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-240p.mkv
+Ιουν 12, 2026 3:10:36 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-240p.mp4
+Ιουν 12, 2026 3:10:36 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-360p.avi
+Ιουν 12, 2026 3:10:36 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-360p.mkv
+Ιουν 12, 2026 3:10:36 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-360p.mp4
+Ιουν 12, 2026 3:10:36 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-480p.avi
+Ιουν 12, 2026 3:10:36 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-480p.mkv
+Ιουν 12, 2026 3:10:36 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-480p.mp4
+Ιουν 12, 2026 3:10:36 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-720p.avi
+Ιουν 12, 2026 3:10:36 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-720p.mkv
+Ιουν 12, 2026 3:10:36 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-720p.mp4
+Ιουν 12, 2026 3:10:36 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO: Waiting for clients...
+Ιουν 12, 2026 3:10:36 Π.Μ. streaming.streamingserver.StreamingServer registerWithLoadBalancer
+INFO: Load Balancer response: OK Registered port 5000
+Ιουν 12, 2026 3:20:50 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO: Scanning videos/ folder and generating missing files...
+Ιουν 12, 2026 3:21:27 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO: Video library ready - 12 files:
+Ιουν 12, 2026 3:21:27 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-240p.avi
+Ιουν 12, 2026 3:21:27 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-240p.mkv
+Ιουν 12, 2026 3:21:27 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-240p.mp4
+Ιουν 12, 2026 3:21:27 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-360p.avi
+Ιουν 12, 2026 3:21:27 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-360p.mkv
+Ιουν 12, 2026 3:21:27 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-360p.mp4
+Ιουν 12, 2026 3:21:27 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-480p.avi
+Ιουν 12, 2026 3:21:27 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-480p.mkv
+Ιουν 12, 2026 3:21:27 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-480p.mp4
+Ιουν 12, 2026 3:21:27 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-720p.avi
+Ιουν 12, 2026 3:21:27 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-720p.mkv
+Ιουν 12, 2026 3:21:27 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO:   YJ-720p.mp4
+Ιουν 12, 2026 3:21:27 Π.Μ. streaming.streamingserver.StreamingServer main
+INFO: Waiting for clients...
+Ιουν 12, 2026 3:21:27 Π.Μ. streaming.streamingserver.StreamingServer registerWithLoadBalancer
+INFO: Load Balancer response: OK Registered port 5000

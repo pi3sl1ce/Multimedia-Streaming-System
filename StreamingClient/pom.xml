@@ -10,4 +10,11 @@
         <maven.compiler.release>25</maven.compiler.release>
         <exec.mainClass>streaming.streamingclient.StreamingClient</exec.mainClass>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>fr.bmartel</groupId>
+            <artifactId>jspeedtest</artifactId>
+            <version>1.32.1</version>
+        </dependency>
+    </dependencies>
 </project>
