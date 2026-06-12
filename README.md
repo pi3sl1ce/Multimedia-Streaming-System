@@ -14,6 +14,7 @@ This project implements a complete video streaming pipeline based on the Client�
 - Streaming using multiple protocols (TCP / UDP / RTP)
 - Adaptive quality based on client bandwidth
 - GUI-based client interface
+
 The system is designed in a modular way and can scale from a simple streaming server to a distributed system with load balancing.
 
 ---
@@ -50,13 +51,13 @@ Multimedia-Streaming-System/
 ├── StreamingClient/
 │   ├── pom.xml
 │   ├── streaming.keystore
-│   ├── client_stats.log            //enerated at runtime
+│   ├── client_stats.log            // generated at runtime
 │   └── src/.../streamingclient/
-│       ├── StreamingClient.java    //main, controller, background tasks
-│       ├── Dashboard.java          //Swing GUI
-│       ├── ServerConnection.java   //SSL socket, ffplay/ffmpeg launchers
-│       ├── SpeedTest.java          //JSpeedTest wrapper (5s download test)
-│       └── StatsLogger.java        //CSV session logger
+│       ├── StreamingClient.java    // main, controller, background tasks
+│       ├── Dashboard.java          // Swing GUI
+│       ├── ServerConnection.java   // SSL socket, ffplay/ffmpeg launchers
+│       ├── SpeedTest.java          // JSpeedTest wrapper (5s download test)
+│       └── StatsLogger.java        // CSV session logger
 ├── StreamingLoadBalancer/
 │   ├── pom.xml
 │   └── src/.../streamingloadbalancer/
@@ -138,4 +139,5 @@ Then in the GUI:
 <p align="center">
   <img width="585" height="475" alt="DashboardGUI" src="https://github.com/user-attachments/assets/9745f4d4-355f-4179-bdea-26c16cb05fbd" />
 </p>
+ 
  ---
