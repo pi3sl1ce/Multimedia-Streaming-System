@@ -135,4 +135,7 @@ Then in the GUI:
 4. Select a file from the list, choose a protocol (or leave Auto), and click **4) Start Streaming**  
 (Optional: Tick **Record stream to file** before streaming to save the stream as `<MovieName>_recorded.mp4`).
 
+<p align="center">
+  <img width="585" height="475" alt="DashboardGUI" src="https://github.com/user-attachments/assets/9745f4d4-355f-4179-bdea-26c16cb05fbd" />
+</p>
  ---
